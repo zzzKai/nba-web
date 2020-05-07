@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import Profile from "./Profile";
-import ShotChart from "./ShotChart";
+import DataViewContainer from "./DataViewContainer.js";
 import nba from '../nba-client'
 
 
 class Main extends Component {
     state = {
-        playerInfo: {}
+        playerInfo: {},
+        playerId: 201939,
     }
 
     // constructor() {
@@ -29,8 +30,8 @@ class Main extends Component {
     render() {
         return (
             <div className='main'>
-                <Profile playerInfo = {this.state.playerInfo}/>
-                <ShotChart />
+                <Profile playerInfo={this.state.playerInfo} />
+                <DataViewContainer playerId={this.state.playerId}/>
             </div>
         );
     }
