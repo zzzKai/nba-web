@@ -1,3 +1,11 @@
+## Demo
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo1.png">
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo2.png">
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo3.png">
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo4.png">
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo5.png">
+<img src="https://github.com/zzzKai/nba-web/blob/master/demo/demo6.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
